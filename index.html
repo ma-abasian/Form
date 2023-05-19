@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Sam Zeinali">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="This is a login page">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<div class="form-container">
+    <h1 class="form-title">
+        Login Form
+    </h1>
+    <form class="form">
+        <div>
+            <div class="form_input">
+                <label for="username"><i class="label fa fa-user"></i></label>
+                <input class="input" id="username" type="text" name="username" value="" placeholder="Username">
+            </div>
+            <div id="invalid-username" class="validator" >
+            </div>
+        </div>
+        <div>
+            <div class="form_input">
+                <label for="email"><i class="label fa-solid fa-at"></i></label>
+                <input class="input" id="email" type="email" name="email" value="" placeholder="E-mail Address">
+            </div>
+            <div id="invalid-email" class="validator">
+            </div>
+        </div>
+        <div>
+            <div class="form_input">
+                <label for="password"><i class="label fa-solid fa-lock"></i></label>
+                <input class="input" id="password" type="password" name="password" placeholder="Password">
+            </div>
+            <div id="invalid-password" class="validator">
+            </div>
+        </div>
+
+        <div>
+            <button type="submit" class="btn">
+                GET STARTED
+            </button>
+        </div>
+        
+    </form>
+</div>
+<script src="https://kit.fontawesome.com/393c97b4e1.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
